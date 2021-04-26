@@ -5,22 +5,16 @@ fun main(args : Array<String>){
 //    var name = "Mohamed Eid" // when using var this variable can be change
 //    println(name)
 
-    var name = "Mohamed Keshawey"
+    var name : String = "Mohamed Keshawey"
     println(name)
 
-    val age = 28
+    val age : Int = 28
     println(age)
 
     var developer = "Developer"
     println(developer)
 
-    var avg = 2.3
+    var avg : Double = 2.3
     println(avg)
-
-    var title : String? = null
-    print(title)
-
-    title = "mohamed"
-    println(title)
 
 }
