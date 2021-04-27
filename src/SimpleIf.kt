@@ -11,8 +11,7 @@ fun main( args : Array<String>) {
 //    }else{
 //        print("Not Allowed")
 //    }
-
-
+    
     print("Enter your grade")
     var grade = readLine()!!.toInt()
 
