@@ -19,4 +19,6 @@ fun main( args : Array<String>) {
 
     println(msg.trim())  // delete space
 
+    println(welcomeName.split(","))  // Add commas based on the on the space between words
+    println(welcomeName.split(" "))  // The division of the sentence is the basis for the space between words
 }
