@@ -2,6 +2,7 @@
 fun main( args : Array<String>) {
 
     Home("Black")
+    Home(3)
 
 }
 
@@ -17,7 +18,7 @@ class Home{ // call second
         print("DoorColor : $doorColor")
     }
 
-    init {  // call first
-        this.doorColor
+    constructor(room : Int){
+        this.room = room
     }
 }
